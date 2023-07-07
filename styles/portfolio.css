@@ -29,8 +29,9 @@ body {
 
 .section-description {
     color: #181818;
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
+
 }
 
 /* Nav related Styles */
@@ -114,17 +115,20 @@ nav a {
 /* Main Section Styles */
 
 main{
-    max-width: 980px;
-    margin: 0 auto;
+    
+    margin: 0 auto; 
+    width: 1140px;
+    height: 450px;
 }
 
 /* About Section Styles */
 
 .about {
-    padding: 130px;
+    padding: 100px;
     border-radius: 10px;
     background: rgba(163, 209, 255, 0.472);
-    margin: 130px 0px;
+    margin: 100px 0px;
+   
     
 }
 .about-info-container{
@@ -139,4 +143,26 @@ main{
 }
 .info-title{
     font-weight: lighter;
+}
+
+/* Skills Related Styles */
+
+#what-t-do{
+    padding: 30px 150px; 
+}
+
+.skills-container{
+    display: flex;
+}
+
+.skill-description{
+text-align: justify;
+}
+
+.i20{
+    width: 140px;
+}
+.skill{
+    padding: 30px;
+    gap:24px;
 }
