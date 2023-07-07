@@ -38,7 +38,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    margin: 0px 150px;
 
 }
 
@@ -113,6 +113,10 @@ nav a {
 
 /* Main Section Styles */
 
+main{
+    max-width: 980px;
+    margin: 0 auto;
+}
 
 /* About Section Styles */
 
@@ -120,5 +124,19 @@ nav a {
     padding: 130px;
     border-radius: 10px;
     background: rgba(163, 209, 255, 0.472);
-    margin: 130px 120px;
+    margin: 130px 0px;
+    
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-description{
+    font-weight: bold;
+}
+.info-title{
+    font-weight: lighter;
 }
